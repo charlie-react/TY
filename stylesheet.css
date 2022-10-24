@@ -1,0 +1,81 @@
+input[type="text"],
+input[type="email"]:focus {
+  outline: none;
+}
+.testimony h1 {
+  text-transform: uppercase;
+}
+.img-container {
+  padding: 10px !important;
+}
+.out-links a {
+  color: white !important;
+}
+footer {
+  height: 20% !important;
+}
+.move-back{
+margin-left: -20px;
+}
+.profile-pic{
+  width: 40% !important;
+  animation: slideIn 3s ease-in-out;
+}
+/* ul li{
+  list-style: none;
+} */
+.link-div p{
+  font-size: larger;
+  color: black;
+}
+.link-div h1{
+  color: black;
+}
+
+.hero h2,.hero h4{
+  animation: slidefrom 3s ease-in-out;
+}
+.out-links a{
+  color: rgb(19, 19, 244) !important;
+}
+#top-space{
+  margin-top: 1.5rem !important;
+}
+@keyframes slideIn{
+  0%{
+transform: translateY(-300px);
+  }
+  100%{
+transform: translateY(0);
+  }
+}
+@keyframes slidefrom{
+  0%{
+    transform: translateX(70%);
+  }
+  100%{
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .first-img,
+  .second-img,
+  .third-img {
+    width: 60%;
+
+   
+  }
+  .out-links a{
+
+word-wrap: break-word;
+  }
+  .profile-pic {
+    width: 100% !important;
+    margin: 0,auto;
+    
+  }
+  .link-div a{
+overflow:scroll;
+  }
+}
